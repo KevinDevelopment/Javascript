@@ -6,7 +6,7 @@ returnNumberOfVowels = (string) => {
   console.log(`o numero de vogais é ${count} e a quantidade de caracteres ${numberOfCharacters}`);
 }
 
-returnNumberOfVowels("Abecedario da Xuxa");
+returnNumberOfVowels("kevin cristhian gomes ferreira");
 
 
 
