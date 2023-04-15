@@ -1,13 +1,11 @@
-
 //soma de array com numeros negativos e positivos
 
-const myList = [10, -30, 56, -3, -45, -67, 89, 2, 4, 6, 7, 19, 34]
+const myList = [10, -30, 56, -3, -45, -67, 89, 2, 4, 6, 7, 19, 34];
 
-let sumOfNumbersInArray = 0;
-
-myList.map((item) => {
-  sumOfNumbersInArray += item;
-})
+const sumOfNumbersInArray = myList.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  0
+);
 
 console.log(`array sum with negative and positive numbers = ${sumOfNumbersInArray}`);
 

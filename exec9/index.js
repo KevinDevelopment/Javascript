@@ -1,14 +1,4 @@
+isDivisibleByTen = (number) => number % 10 == 0;
 
-
-trueOrFalse = (number) => {
-
-  if (number % 10 == 0) {
-    return true;
-  } else {
-    return false;
-  }
-
-};
-
-const result = trueOrFalse(9);
+const result = isDivisibleByTen(100);
 console.log(result);

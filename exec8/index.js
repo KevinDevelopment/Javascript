@@ -1,12 +1,6 @@
 
 const myList = [" ola mundo ", "  espaço em branco", "  remover espaço", " teste de remoção"];//sequencia com espaços
 
-
-myList.forEach(item => {
-  console.log(item);
-});
-
-
 console.log("------------------------------------------------------------------------------")
 
 console.log("array depois da limpeza de dados e espaços retirados : \n")
@@ -18,7 +12,7 @@ removeEmptySpaces = (array) => { //funcão para tirar espaços em branco de cada
   })
 
 
-}
+};
 
 wipeData = (dado, type) => {//função que limpa codigo postal retirando espaços vazios
 
@@ -28,7 +22,7 @@ wipeData = (dado, type) => {//função que limpa codigo postal retirando espaço
     return dado.replace(" ", "");
   }
 
-}
+};
 
 removeEmptySpaces(myList);
 

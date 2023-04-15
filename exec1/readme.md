@@ -1,4 +1,6 @@
-# Imprima todos os números pares de 0 – 10
+## Imprima todos os números pares de 0 – 10
 
-### utilizei um loop for para verificar se o numero informado na variavel pairNumbers, ao fazer o mod
-### ou resto da divisão retorna 0, se retornar significa que ele é par;
+### Tente fazer a solução para esse problema da maneira mais eficiente possível. Considere
+### usar loops que permitiriam digitar o menor número de caracteres / comandos. Enquanto
+### você pode simplesmente imprimir os números pares, seja criativo e veja como você pode
+### produzi-los de uma maneira que funcione até 10 ou até 10.000 com pouco esforço extra.

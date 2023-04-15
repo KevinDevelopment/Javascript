@@ -9,9 +9,9 @@ filterNegativenumbers = (array) => {
       newArray.push(array[i]);
     }
   }
-  console.log(newArray);
+  return newArray;
 }
 
 
-filterNegativenumbers(myList);
-filterNegativenumbers(myList2);
+console.log(filterNegativenumbers(myList));
+console.log(filterNegativenumbers(myList2));

@@ -1,7 +1,14 @@
-let pairNumbers = 10;
-
-for (i = 0; i <= pairNumbers; i++) {
-  if (i % 2 == 0) {
-    console.log(i)
+function getPairNumbers(number, finalNumber) {
+  if (number % 2 == 0) {
+    console.log(number);
   }
+
+  if (finalNumber - number <= 0) {
+    return;
+  }
+
+  getPairNumbers(number + 1, finalNumber);
 }
+
+getPairNumbers(0, 10000);
+
