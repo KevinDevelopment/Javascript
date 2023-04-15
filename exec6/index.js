@@ -3,7 +3,7 @@ const myList2 = [-1,-10,-3,-6,-20,-45,-100];
 const myList3 = [1.0,10.45,56.34, 3.2, 5.0,6.0,7.89];
 
 
-myList.sort(function (a, b) { // classificando um array com o método sort que recebo como parâmetro uma funçaõ
+myList.sort(function (a, b) { // classificando um array com o método sort que recebe como parâmetro uma função
 
   if (a > b) return 1;
   if (a < b) return -1;
